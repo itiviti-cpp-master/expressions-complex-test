@@ -236,7 +236,7 @@ TEST(ComplexTest, string)
 TEST(ComplexTest, print)
 {
     static constexpr auto str = [](const Complex & n) {
-        std::stringstream ss;
+        std::ostringstream ss;
         ss << n;
         return ss.str();
     };
